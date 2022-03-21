@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+h1 {
+    font-family: Roboto;
+    font-style: italic;
+    /*font-style: normal;*/
+    font-variant: small-caps;
+    font-weight: 900;
+    /*Aumenta a expessura da font*/
+    /*font-weight: bold; --> deixa a font em negrito*/
+    font-size: 40px;
+    /*aumenta o tamanho da font*/
+}
