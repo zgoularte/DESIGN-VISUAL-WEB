@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    font-family: 'Roboto';
+}
+
 h1 {
     font-family: Roboto;
-    font-style: italic;
+    /*font-style: italic;*/
     /*font-style: normal;*/
-    font-variant: small-caps;
-    font-weight: 900;
+    /*font-variant: small-caps;*/
+    font-weight: normal;
     /*Aumenta a expessura da font*/
     /*font-weight: bold; --> deixa a font em negrito*/
-    font-size: 40px;
+    font-size: 2vm;
     /*aumenta o tamanho da font*/
+    color: rgba(0, 0, 0, 0.5);
+    /*se quiser deixar a font opaca, meio trasnparente*/
+}
+
+p {
+    height: 100px;
+    background-color: #ff3300;
+    background-image: url('degrade.jpg');
+    background-image: linear-gradient(90deg, orange, red, #00f000);
 }
