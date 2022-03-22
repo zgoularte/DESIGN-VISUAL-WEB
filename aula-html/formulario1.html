@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="Formulario-section">
+        <div class="parte-1">
+            <form action="" method="get">
+                <p>Nome: <input type="text" name="nome" placeholder="Dica de preenchimento." required></p>
+                <p>Idade: <input type="text" name="idade" placeholder="XXX"></p>
+                <p>Senha: <input type="password" name="senha"></p>
+                <p>
+                    Interesses:
+                    <input type="checkbox" name="futebol"> Futebol
+                    <input type="checkbox" name="novela"> Vôlei
+                    <input type="checkbox" name="bbb"> Basquete
+                    <input type="checkbox" name="internet"> Handebol
+                </p>
+        </div>
+        <div class="parte-2">
+            <p>
+                Status:
+                <input type="radio" name="status" value="ativo"> Ativo
+                <input type="radio" name="status" value="inativo"> Inativo
+            </p>
+            <p>Currículo: <input type="file" name="curriculo"></p>
+            <p><input type="hidden" name="token" value="ajkd13akA4Sh"></p>
+
+            <p>Mensagem: <textarea name="mensagem" cols="50" rows="5">Texto padrão de multiplas linhas.</textarea></p>
+
+            <select name="cidade">
+                <option value="">Maringá</option>
+                <option value="">Londrina</option>
+                <option value="">Curitiba</option>
+            </select>
+
+            <p>E-mail: <input type="email" name="email"></p>
+            <p><input type="color"></p>
+
+            <p><input class="btn" type="button" value="Ok"></p>
+            <p><input type="submit"></p>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
