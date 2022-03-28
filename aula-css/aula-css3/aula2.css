@@ -1,0 +1,18 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    letter-spacing: -2px;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-align: center;
+    margin: 50px 60px 50px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 30px;
+}
+
